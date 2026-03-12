@@ -1,0 +1,39 @@
+/* 
+ * Minimal styles.css
+ * Most styling is now handled by Tailwind CSS utility classes in index.html.
+ * This file contains only essential overrides or custom animations.
+ */
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #e5e7eb;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #d1d5db;
+}
+
+/* Modal Animations */
+#modalOverlay.active {
+    opacity: 1;
+}
+
+#modalOverlay.active #modal {
+    transform: scale(1);
+}
+
+/* Navigation Active State */
+.nav-link.active {
+    color: #111827;
+    /* text-gray-900 */
+    font-weight: 600;
+}

@@ -1,0 +1,4 @@
+name,username,password,email,phone,initial_balance,account_type
+Sakishi Raj,sakishi_raj,password123,sakishi.raj@email.com,9876543210,0,Savings
+Palak Parmar,palak_parmar,password123,palak.parmar@email.com,9876543211,0,Checking
+Rahul Sharma,rahul_sharma,password123,rahul.sharma@email.com,9876543212,0,Savings
